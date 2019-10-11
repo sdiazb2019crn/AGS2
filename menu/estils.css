@@ -22,6 +22,7 @@ li {
   font-size: 24px;
   font-family: Helvetica Neue;
   text-align: center;
+  background-size: 100%;
 }
 /* .anulador {
   clear: both;
@@ -32,19 +33,15 @@ clear: both;
 para anular el efecto del float */
 #a01 {
   background-image: url(img/a01.png);
-  background-size: 100%;
 }
 #a02 {
   background-image: url(img/a02.png);
-  background-size: 100%;
 }
 #a03 {
   background-image: url(img/a03.png);
-  background-size: 100%;
 }
 #a04 {
   background-image: url(img/a04.png);
-  background-size: 100%;
 }
 a {
   height: 200px;
