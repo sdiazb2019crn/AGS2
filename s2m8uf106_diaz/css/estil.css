@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background-color: MediumPurple;
+  margin: 10px;
+  font-size: 96px;
+  position:
+}
+.prova {
+  background-color: tomato;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  left: 400px;
+  margin: 0px;
+}
+.prova2 {
+  background-color: chartreuse;
+  position: relative;
+  bottom: 50px;
+  right: 0px;
+  left: 0px;
+  margin: 0px;
+}
