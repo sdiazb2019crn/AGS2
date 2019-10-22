@@ -1,0 +1,60 @@
+div {
+  background-color: brown;
+  margin: 0 auto;
+  width: 800px;
+  padding: 20px;
+}
+ul {
+  overflow: visible;
+  margin: 0px;
+  margin-bottom: 100px;
+  padding: 0px;
+  clear: both;
+}
+li {
+  display: block;
+  margin: 0px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  background-image: linear-gradient(45deg, maroon, brown);
+}
+p {
+    background-color: linen;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    /*position: relative;
+    top: 100px;
+    left: 100px;*/
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px dimgray,
+                inset 5px 5px 20px brown;
+}
+.negra {
+  background-color: sienna;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  /*position: relative;
+  top: 100px;
+  left: 100px;*/
+  border-radius: 40px;
+  box-shadow: 2px 2px 5px black,
+              inset 5px 5px 20px darkred;
+}
+
+/* li:first-child {
+background-image: linear-gradient(to right, red 0%, orange 10%);
+background-image: linear-gradient(45deg, red, orange);
+background-image: linear-gradient(to right, red, orange, blue); to top, to left, to bottom} */
+
+li:nth-child(2n) {
+  background-image: linear-gradient(45deg, darkorange, peachpuff);
+}
+ul:nth-child(2n) li {
+  background-image: linear-gradient(45deg, darkorange, peachpuff);
+}
+ul:nth-child(2n) li:nth-child(2n) {
+  background-image: linear-gradient(45deg, maroon, brown);
+}

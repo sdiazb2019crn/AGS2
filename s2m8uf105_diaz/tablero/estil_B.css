@@ -1,0 +1,27 @@
+div {
+  background-color: green;
+  margin: 0px;
+  padding: 20px;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+.orange {
+  background-color: orange;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.marron {
+  background-color: maroon;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
