@@ -64,8 +64,20 @@ para anular el efecto del float */
 #a06 {
   background-image: url(img/a06.png);
 }
+#a06.5 {
+  background-image: url(img/a06.5.png);
+}
 #a07 {
   background-image: url(img/a07.png);
+}
+#a08 {
+  background-image: url(img/a08.png);
+}
+#a09 {
+  background-image: url(img/a09.png);
+}
+#a10 {
+  background-image: url(img/a10.png);
 }
 a {
   height: 200px;
