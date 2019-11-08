@@ -1,6 +1,43 @@
 body{
+  background-color: darksalmon;
   font-size: 1em;
 }
+/* breakpoint per a mòbil apaisat */
+@media screen and (max-width:640px) and (orientation:landscape){
+  body{
+    background-color: seagreen;
+  }
+}
+/* breakpoint per a mòbil vertical */
+@media screen and (max-width:640px) and (orientation:portrait){
+  body{
+    background-color: DarkKhaki;
+  }
+}
+/* per a escriptori */
+@media screen and (min-width:1200px) {
+  body{
+    background-color: PeachPuff;
+  }
+}
+/* per a tablets vertical */
+@media screen and (min-width:641px) and (max-width:1200px) and (orientation:portrait){
+  body{
+    background-color: Khaki;
+  }
+}
+/* per a tablets apaisades */
+@media screen and (min-width:641px) and (max-width:1200px)  and (orientation:landscape){
+  body{
+    background-color: MediumAquaMarine;
+  }
+}
+
+
+
+
+
+
 div {
   margin: 0 auto;
   width: 800px;
@@ -18,8 +55,6 @@ p {
 img {
   width: 100px;
 }
-/* visibility: hidden;
-display: none; */
 h2{
   font-size: 1.5em;
   font-family: georgia, times;
