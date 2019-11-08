@@ -25,10 +25,12 @@ li {
 }
 a {
   text-decoration: none;
+  height: 120px;
+  display: block;
   margin: 0;
   padding-top: 80px;
-  background-color: rgba(255,255,255,0.5);
-}
+  background-color: rgba(255,255,255,0.6);
+} /* para que el enlace funcione para toda la caja */
 a:visited {
   background-color: ivory;
   color: darkSLATEBLUE
@@ -64,8 +66,8 @@ para anular el efecto del float */
 #a06 {
   background-image: url(img/a06.png);
 }
-#a06.5 {
-  background-image: url(img/a06.5.png);
+#a065 {
+  background-image: url(img/a065.png);
 }
 #a07 {
   background-image: url(img/a07.png);
@@ -79,7 +81,3 @@ para anular el efecto del float */
 #a10 {
   background-image: url(img/a10.png);
 }
-a {
-  height: 200px;
-  display: block;
-} /* para que el enlace funcione para toda la caja */
