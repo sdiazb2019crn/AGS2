@@ -1,0 +1,6 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+} /* copiar-usar el reset.css de meyer, David Well o yahoo, estos sirven para corregir el código para cada navegador */
