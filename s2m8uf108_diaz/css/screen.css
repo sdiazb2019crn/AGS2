@@ -24,3 +24,27 @@ h1{
   font-weight: bold;
   color: white;
 }
+.cap{
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 69px;
+}
+.cos{
+  background-color: #F5F2EB;
+  overflow-y: auto;
+  top: 69px;
+  left: 0px;
+  right: 0px;
+  bottom: 69px;
+}
+.peu{
+  background-color: #7F9FF0;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 85px;
+}
