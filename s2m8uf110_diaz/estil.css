@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#cap{
+	background-color: yellow;
+	height: 150px;
+}
+#indice{
+	background-color: white;
+	width: 20%;
+	float: left;
+}
+#contenido{
+	background-color: orange;
+	width: 60%;
+	float: left;
+
+}
+#contenido img{
+	width: 100%;
+}
+#derecha{
+	background-color: pink;
+	width: 20%;
+	float: right; /*o float: left;*/
+}
+#pie{
+	background-color: black;
+	height: 150px;
+	clear: both;
+}
+h1{
+	margin: 0;
+	margin: 0 auto;
+	padding: 0;
+	border-bottom: solid 5px black;
+	width: 60%;
+}
