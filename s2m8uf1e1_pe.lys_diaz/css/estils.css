@@ -1,0 +1,179 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+  background-color: #222;
+}
+.barra{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10000;
+}
+.barra img{
+  margin: 0;
+  padding: 10px;
+  float: left;
+}
+.menuizq ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 100px;
+}
+.menuder ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.menuizq li{
+  float: left;
+  margin: 0;
+  padding: 5px;
+  padding-top: 20px;
+}
+.menuder li{
+  float: left;
+  margin: 0;
+  padding: 5px;
+  padding-top: 20px;
+}
+.barra a{
+  text-decoration: none;
+  color: #CCC;
+}
+.barra a:hover{
+  color; #FFF;
+  border-bottom: solid 2px blue;
+}
+.barra a:visited{
+  color; #FFF;
+}
+.barra a:active{
+  color; #CCC;
+}
+.docint{
+  position: relative;
+  top: 50px;
+  margin-bottom: 50px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.docint h2{
+  color: #FFF;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+#titol{
+  color: #CCC;
+  font-size: 14px;
+}
+#any{
+  color: #CCC;
+  font-size: 11px;
+  float: left;
+  margin: 10px 0;
+}
+#tipus{
+  color: #CCC;
+  font-size: 11px;
+  float: right;
+  margin: 10px 0;
+}
+.grup{
+  width: 175px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  float: left;
+}
+.grup img{
+    border-radius: 5px;
+}
+.docvist h2{
+  color: #FFF;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+.docvist {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 100%;
+}
+.pelpend{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  width: 100%;
+}
+.pelvist{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 100%;
+}
+.seriesseg{
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  width: 100%;
+}
+.seriesvist{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 100%;
+}
+p{
+  width: 175px;
+  height: 260px;
+  background-color: red;
+}
+.pelpend h2{
+  color: #FFF;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+.pelvist h2{
+  color: #FFF;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+.seriesseg h2{
+  color: #FFF;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+.seriesvist h2{
+  color: #FFF;
+  font-size: 22px;
+  padding: 10px 20px;
+}
