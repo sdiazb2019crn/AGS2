@@ -434,3 +434,32 @@ function yellowgreen1(){
   document.getElementsByClassName('rec')[2].style.backgroundColor="#cce698";
   document.getElementsByClassName('rec')[3].style.backgroundColor="#cce698";
 }
+document.getElementById('oncedef').addEventListener('input',selcoldef);
+function selcoldef(){
+  document.getElementById('derecha').style.backgroundColor=oncedef.value;
+  document.getElementsByClassName('rec')[0].style.backgroundColor=oncedef.value;
+  document.getElementsByClassName('rec')[1].style.backgroundColor=oncedef.value;
+  document.getElementsByClassName('rec')[2].style.backgroundColor=oncedef.value;
+  document.getElementsByClassName('rec')[3].style.backgroundColor=oncedef.value;
+}
+document.getElementById('once').addEventListener('input',selcol);
+function selcol(){
+  document.getElementById('gran').style.backgroundColor=once.value;
+  document.getElementById('mono').style.backgroundColor=once.value;
+}
+document.getElementById('oncedark').addEventListener('input',selcoldark);
+function selcoldark(){
+  document.getElementById('derecha').style.backgroundColor=oncedark.value;
+  document.getElementsByClassName('rec')[0].style.backgroundColor=oncedark.value;
+  document.getElementsByClassName('rec')[1].style.backgroundColor=oncedark.value;
+  document.getElementsByClassName('rec')[2].style.backgroundColor=oncedark.value;
+  document.getElementsByClassName('rec')[3].style.backgroundColor=oncedark.value;
+}
+document.getElementById('onceart').addEventListener('input',selcolart);
+function selcolart(){
+  document.getElementById('derecha').style.backgroundColor=onceart.value;
+  document.getElementsByClassName('rec')[0].style.backgroundColor=onceart.value;
+  document.getElementsByClassName('rec')[1].style.backgroundColor=onceart.value;
+  document.getElementsByClassName('rec')[2].style.backgroundColor=onceart.value;
+  document.getElementsByClassName('rec')[3].style.backgroundColor=onceart.value;
+}
