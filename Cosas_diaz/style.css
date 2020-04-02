@@ -1,0 +1,19 @@
+/*
+Theme name: Cosas
+Descrption: El meu blog
+Author: Sandra
+Version: 3.0.15
+License: A copiar
+Tags: dietario, blog, portfolio, notas, dias, comentarios, post, articulos
+*/
+@import url("estil.css");
+
+body{
+  background: red;
+}
+.rodona{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: black;
+}
