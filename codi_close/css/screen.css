@@ -4,7 +4,7 @@
   and (device-width: 480px)
   and (device-height: 800px)
   and (orientation: portrait) {
-    #centrar{
+    #contenedor{
                                width:100%;
                                }
 }
