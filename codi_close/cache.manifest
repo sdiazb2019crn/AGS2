@@ -1,5 +1,8 @@
 CACHE MANIFEST
 
 index.html
+css/reset.css
+css/media.css
 css/style.css
+html/discover.html
 img/*

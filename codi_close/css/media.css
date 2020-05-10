@@ -1,11 +1,11 @@
 /* breakpoint per a mòbil apaisat */
-@media screen and (max-width:411px) and (orientation:landscape){
+@media screen and (max-width:480px) and (orientation:landscape){
   body{
     background-color: seagreen;
   }
 }
 /* breakpoint per a mòbil vertical */
-@media screen and (max-width:411px) and (orientation:portrait){
+@media screen and (max-width:480px) and (orientation:portrait){
   body{
     background-color: DarkKhaki;
   }
@@ -17,13 +17,13 @@
   }
 }
 /* per a tablets vertical */
-@media screen and (min-width:412px) and (max-width:1200px) and (orientation:portrait){
+@media screen and (min-width:481px) and (max-width:1200px) and (orientation:portrait){
   body{
     background-color: Khaki;
   }
 }
 /* per a tablets apaisades */
-@media screen and (min-width:412px) and (max-width:1200px)  and (orientation:landscape){
+@media screen and (min-width:481px) and (max-width:1200px)  and (orientation:landscape){
   body{
     background-color: MediumAquaMarine;
   }
