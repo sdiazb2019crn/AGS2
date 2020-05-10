@@ -1,7 +1,7 @@
 
 /* Portrait */
 @media screen
-  and (max-width: 480px)
+  and (device-width: 360px)
   and (orientation: portrait) {
     #contenedor{
                                width:100%;
