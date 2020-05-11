@@ -276,32 +276,33 @@ a{
   float: left;
   width: 46%;
   height: 37%;
-  margin: 15px 7px 7px 7px;
+  margin: 0 7px;
 }
 #nota1{
-  background-image: url(../img/nota1.png);
+  background-image: url(../img/nota_1.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-size: 95%;
 }
 #nota2{
   background-image: url(../img/nota2.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 #nota3{
   background-image: url(../img/nota3.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 #nota4{
   background-image: url(../img/nota4.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 #nota5{
   background-image: url(../img/nota5.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .notascor h2{
   width: 70%;
@@ -309,7 +310,7 @@ a{
   font-weight: 450;
   text-align: center;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 40px;
   padding-right: 8px;
 }
 .notascor h3{
