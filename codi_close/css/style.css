@@ -5,6 +5,15 @@ body{
   overflow-x:hidden;
   margin: 0 auto;
 }
+h1{
+  font-size: 18px;
+}
+h2{
+  font-size: 16px;
+}
+h3{
+  font-size: 14px;
+}
 .contingut{
   position: absolute;
   top: 0;
@@ -83,6 +92,7 @@ body{
   height: 50px;
 }
 
+/*discover page*/
 .ficha{
   float: left;
   width: 42%;
@@ -107,6 +117,8 @@ body{
   font-size: 16px;
   margin: 5px 0;
 }
+
+/*profile page*/
 .numpost{
   width: 30%;
   margin: 10px;
@@ -127,3 +139,116 @@ body{
   margin: 9px;
   margin-left: 30px;
 }
+#nomperfil{
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #FFDD92;
+}
+#nomperfil h1{
+  font-size: 18px;
+  margin: 15px 0 0 0;
+}
+#nomperfil img{
+  height: 20%;
+  display: inline-block;
+}
+#nomtxt h1{
+  font-size: 18px;
+  text-align: left;
+  margin: 5px 10px;
+}
+#nomtxt {
+  width: 30%;
+  display: inline-block;
+}
+#local{
+  width: 72%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #FFF7E5;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px gray;
+}
+.linea{
+  width: 100%;
+}
+#lin1 h2{
+  position: relative;
+  top: -4px;
+}
+#lin2 h2{
+  position: relative;
+  top: -6px;
+}
+#lin3 h2{
+  margin-bottom: 0;
+}
+#lin1 img{
+  width: 8%;
+  margin: 0 0 0 5px;
+}
+#lin2 img{
+  width: 10%;
+  margin: 0 ;
+}
+#lin3 img{
+  width: 5%;
+  margin: 5px 5px 5px 10px;
+}
+.linea img{
+  display: inline-block;
+}
+.linea h2{
+  display: inline-block;
+  font-size: 16px;
+  text-align: left;
+  margin: 5px;
+}
+.numposit{
+  width: 75%;
+  margin: 10px;
+  padding: 5px;
+  background-color: ;
+  margin: 0 auto;
+  height: 5%;
+}
+.numposit img{
+  display: inline-block;
+  margin: 5px;
+  width: 10%;
+}
+.numposit h2{
+  position: relative;
+  top: -12px;
+  display: inline-block;
+}
+.descrip{
+  width: 75%;
+  padding: 5px;
+  background-color: ;
+  margin: 10px auto;
+}
+.editfix{
+  position: sticky;
+  height: 10%;
+  top: 40em;
+}
+#edit{
+  width: 12%;
+  height: 7%;
+  background-color: ;
+  margin: 10px;
+  display: inline-block;
+}
+#bot_exp{
+  width: 41%;
+  height: 7%;
+  background-color: ;
+  margin: 10px;
+  display: inline-block;
+  float: right;
+}
+
+/*profile page*/
