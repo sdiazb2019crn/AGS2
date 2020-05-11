@@ -142,7 +142,7 @@ h3{
 #nomperfil{
   width: 100%;
   margin: 0 0 10px 0;
-  padding: 20px 0;
+  padding: 15px 0;
   text-align: center;
   background-color: #FFDD92;
 }
@@ -205,6 +205,7 @@ h3{
   font-size: 14px;
   text-align: left;
   margin: 5px;
+  font-weight: lighter;
 }
 .numposit{
   width: 75%;
@@ -224,6 +225,7 @@ h3{
   top: -12px;
   display: inline-block;
   font-size: 14px;
+  font-weight: lighter;
 }
 .descrip{
   width: 75%;
@@ -233,6 +235,7 @@ h3{
 }
 .descrip h2{
   font-size: 14px;
+  font-weight: lighter;
 }
 .editfix{
   position: sticky;
