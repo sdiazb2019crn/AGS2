@@ -148,7 +148,7 @@ h3{
 }
 #nomperfil h1{
   font-size: 18px;
-  margin: 15px 0 0 0;
+  margin: 0;
 }
 #nomperfil img{
   height: 20%;
@@ -162,6 +162,8 @@ h3{
 #nomtxt {
   width: 30%;
   display: inline-block;
+  position: relative;
+  top: -20px;
 }
 #local{
   width: 72%;
@@ -205,7 +207,7 @@ h3{
   font-size: 14px;
   text-align: left;
   margin: 5px;
-  font-weight: lighter;
+  font-weight: 600;
 }
 .numposit{
   width: 75%;
@@ -225,7 +227,7 @@ h3{
   top: -12px;
   display: inline-block;
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: 600;
 }
 .descrip{
   width: 75%;
@@ -235,7 +237,7 @@ h3{
 }
 .descrip h2{
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: 500;
 }
 .editfix{
   position: sticky;
