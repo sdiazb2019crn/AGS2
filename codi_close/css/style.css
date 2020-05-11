@@ -53,7 +53,7 @@ body{
 }
 .cos{
   position: absolute;
-  overflow-y: auto;
+  overflow-y: hidden;
   top: 40px;
   left: 0px;
   right: 0px;
@@ -81,4 +81,49 @@ body{
 }
 .peu img {
   height: 50px;
+}
+
+.ficha{
+  float: left;
+  width: 42%;
+  height: 38%;
+  background-color: ;
+  margin: 14px 14px 8px 14px;
+  text-align: center;
+}
+.ficha img{
+  width: 70%;
+}
+.fichatxt{
+  width: 100%%;
+  margin: 0;
+  padding: 5px 0 0 0;
+  text-align: center;
+  background-color: #FFDD92;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px gray;
+}
+.fichatxt h2{
+  font-size: 16px;
+  margin: 5px 0;
+}
+.numpost{
+  width: 30%;
+  margin: 10px;
+  margin-left: 15px;
+  float: left;
+}
+.numpost img{
+  width: 60%;
+  float: left;
+}
+.numpost h3{
+  font-size: 14px;
+  margin: 0;
+  line-height: 29px;
+}
+#logochat{
+  width: 20%;
+  margin: 9px;
+  margin-left: 30px;
 }
