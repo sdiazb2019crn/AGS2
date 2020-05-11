@@ -116,6 +116,7 @@ h3{
 .fichatxt h2{
   font-size: 16px;
   margin: 5px 0;
+  font-weight: 400;
 }
 
 /*profile page*/
@@ -168,12 +169,12 @@ h3{
   top: -20px;
 }
 #local{
-  width: 72%;
+  width: 65%;
   margin: 10px auto;
   padding: 10px 20px;
   background-color: #FFF7E5;
   border-radius: 10px;
-  box-shadow: 2px 2px 8px gray;
+  box-shadow: 2px 2px 6px lightgray;
 }
 .linea{
   width: 100%;
@@ -209,7 +210,7 @@ h3{
   font-size: 14px;
   text-align: left;
   margin: 5px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .numposit{
   width: 75%;
@@ -229,7 +230,7 @@ h3{
   top: -12px;
   display: inline-block;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .descrip{
   width: 75%;
