@@ -14,6 +14,9 @@ h2{
 h3{
   font-size: 14px;
 }
+a{
+  text-decoration: none;
+}
 .contingut{
   position: absolute;
   top: 0;
@@ -154,7 +157,7 @@ h3{
   font-weight: 600;
 }
 #nomperfil img{
-  height: 20%;
+  width: 26%;
   display: inline-block;
 }
 #nomtxt h1{
@@ -167,7 +170,7 @@ h3{
   width: 30%;
   display: inline-block;
   position: relative;
-  top: -20px;
+  top: -15px;
 }
 #local{
   width: 66%;
@@ -244,24 +247,84 @@ h3{
   font-weight: 450;
 }
 .editfix{
-  position: sticky;
+  position: fixed;
+  bottom: 80px;
   height: 10%;
-  top: 27em;
+  width: 100%;
 }
 #edit{
   width: 12%;
   height: 7%;
-  background-color: ;
   margin: 10px;
   display: inline-block;
 }
 #bot_exp{
   width: 41%;
   height: 7%;
-  background-color: ;
   margin: 10px;
   display: inline-block;
   float: right;
 }
 
-/*profile page*/
+/*notas page*/
+.corcho{
+  background-image: url(../img/corcho_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.notascor{
+  float: left;
+  width: 46%;
+  height: 37%;
+  margin: 15px 7px 7px 7px;
+}
+#nota1{
+  background-image: url(../img/nota1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nota2{
+  background-image: url(../img/nota2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nota3{
+  background-image: url(../img/nota3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nota4{
+  background-image: url(../img/nota4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nota5{
+  background-image: url(../img/nota5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.notascor h2{
+  width: 70%;
+  font-size: 14px;
+  font-weight: 450;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding-right: 8px;
+}
+.notascor h3{
+  width: 70%;
+  font-size: 14px;
+  font-weight: 450;
+  color: #cc0000;
+  text-align: right;
+  margin: 7px 10px auto;
+}
+.notamas{
+  float: right;
+  width: 12%;
+  height: 7%;
+  position: fixed;
+  right: 20px;
+  bottom: 85px;
+}
