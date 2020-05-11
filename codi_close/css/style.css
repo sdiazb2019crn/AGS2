@@ -149,6 +149,7 @@ h3{
 #nomperfil h1{
   font-size: 18px;
   margin: 0;
+  font-weight: 600;
 }
 #nomperfil img{
   height: 20%;
@@ -158,6 +159,7 @@ h3{
   font-size: 18px;
   text-align: left;
   margin: 5px 10px;
+  font-weight: 600;
 }
 #nomtxt {
   width: 30%;
@@ -207,7 +209,7 @@ h3{
   font-size: 14px;
   text-align: left;
   margin: 5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .numposit{
   width: 75%;
@@ -227,7 +229,7 @@ h3{
   top: -12px;
   display: inline-block;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .descrip{
   width: 75%;
