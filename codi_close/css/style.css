@@ -95,10 +95,8 @@ h3{
 /*discover page*/
 .ficha{
   float: left;
-  width: 42%;
-  height: %;
-  background-color: ;
-  margin: 14px 14px 8px 14px;
+  width: 39%;
+  margin: 8px 18px auto;
   text-align: center;
 }
 .ficha img{
