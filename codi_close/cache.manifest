@@ -4,7 +4,9 @@ index.html
 css/reset.css
 css/screen.css
 css/style.css
-html/base.html
+css/estil_menuhamb.css
+html/base_menu.html
 html/discover.html
 html/notas.html
+html/profile.html
 img/*
