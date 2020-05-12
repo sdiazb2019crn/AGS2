@@ -1,9 +1,42 @@
 
-/* Portrait */
+/* Portrait
 @media screen
   and (device-width: 360px)
   and (orientation: portrait) {
     #contenedor{
       width:100%;
      }
+} */
+
+/* breakpoint per a mòbil vertical */
+@media screen
+and (max-width:360px)
+and (orientation:portrait){
+  .centrar {
+    overflow: hidden;
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/* per a escriptori */
+@media screen
+and (min-width:1200px) {
+  .centrar {
+    overflow: hidden;
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/* per a tablets vertical */
+@media screen
+and (min-width:361px)
+and (max-width:1200px)
+and (orientation:portrait){
+  .centrar {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
