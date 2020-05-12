@@ -32,7 +32,8 @@ a{
 }
 .centrar {
   overflow: hidden;
-  width: 360px;
+  max-width: 360px;
+  width: 100%;
   margin: 0 auto;
 }
 .cap{
