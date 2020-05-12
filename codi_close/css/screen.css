@@ -4,6 +4,6 @@
   and (device-width: 360px)
   and (orientation: portrait) {
     #contenedor{
-                               width:100%;
-                               }
+      width:100%;
+     }
 }
