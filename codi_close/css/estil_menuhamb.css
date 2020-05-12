@@ -1,0 +1,93 @@
+.peu nav{
+  background-color: #FFDD92;
+  z-index:1000;
+	max-width: 1000px;
+	width:80%;
+	margin:20px auto;
+	height: 100%;
+  position: fixed;
+  top:0;
+  right: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+.iconhamb .bt-menu {
+		display: block;
+		color: #fff;
+		overflow: hidden;
+		text-decoration: none;
+}
+.peu nav ul {
+	list-style:none;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.peu nav ul li {
+	display: block;
+	position: relative;
+}
+.peu nav ul li:hover {
+	background:#E6344A;
+}
+.peu nav ul li a {
+	color:black;
+	display:block;
+	text-decoration:none;
+	padding: 5px 10px;
+}
+.peu nav ul li img {
+	height: 100%;
+  padding-left: 10px;
+}
+.peu nav .menu_cap{
+	border-bottom: 1px solid rgba(0,0,0,.2);
+  padding: 10px;
+  padding-bottom: 0;
+}
+.peu nav .menu_cap h2{
+	display: inline-block;
+	position: relative;
+  float: right;
+}
+.peu nav #atras2{
+	display: inline-block;
+	position: relative;
+}
+.peu nav .menu_peu #atras3{
+	display: inline-block;
+	position: relative;
+  margin: 0;
+  padding-right: 10px;
+}
+.peu nav .menu_nomapp{
+	border-bottom: 1px solid rgba(0,0,0,.4);
+  padding: 10px;
+  padding-right: 20px;
+  text-align: right;
+}
+.peu nav .menu_nomapp h1{
+  font-size: 32px;
+  color: #8E7854;
+}
+.peu nav .menu_peu{
+	border-top: 1px solid rgba(0,0,0,.2);
+  padding: 10px 20px;
+  padding-left: 20px;
+  position: fixed;
+  bottom: 0px;
+  width: 69%;
+}
+.peu nav .menu_peu h2{
+	display: inline-block;
+	position: relative;
+}
+.peu nav .menu_peu img{
+	display: inline-block;
+	position: relative;
+  float: right;
+  height: 4%;
+}
+.peu nav .menu_peu a {
+	color:red;
+	text-decoration:none;
+}
