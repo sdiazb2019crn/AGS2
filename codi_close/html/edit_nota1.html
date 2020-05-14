@@ -93,26 +93,45 @@
               <div id="cinc" class="bola"></div>
             </div>
           </div>
-          <div class="down">
-            <img src="../img/down.png">
+          <div class="slider">
+            <div id="colors2">
+              <div id="u2" class="bola2"></div>
+              <div id="dos2" class="bola2"></div>
+              <div id="tres2" class="bola2"></div>
+              <div id="cuatre2" class="bola2"></div>
+              <div id="cinc2" class="bola2"></div>
+            </div>
           </div>
+
           <div class="right">
             <img src="../img/right.png">
           </div>
         </div>
 
+        <div class="down">
+          <img src="../img/down.png">
+        </div>
       </div>
 
       <script type="text/javascript">
         var imatgran=document.getElementById('muestra');
         var imatge=document.getElementsByClassName('mov');
+        var slider=document.getElementsByClassName('slider');
         imatge[0].addEventListener('mouseover', opc0);
         imatge[1].addEventListener('mouseover', opc1);
         function opc0(){
           imatgran.src=imatge[0].src;
+          document.getElementById('colors').style.display="block";
+          document.getElementById('colors2').style.display="none";
+          slider[0].style.display="block";
+          slider[1].style.display="none";
         }
         function opc1(){
           imatgran.src=imatge[1].src;
+          document.getElementById('colors').style.display="none";
+          document.getElementById('colors2').style.display="block";
+          slider[0].style.display="none";
+          slider[1].style.display="block";
         }
 
         var color=["#800000","#D03B3B","#998F8F","#FEE9E9","white"];
@@ -139,6 +158,32 @@
         document.getElementById('cinc').addEventListener('click',blanco);
         function blanco(){
           imatgran.src="../img/nota_1.png";
+        }
+
+        var color2=["#800000","#D03B3B","#998F8F","#FEE9E9","white"];
+        var bolacolor2=document.getElementsByClassName('bola2');
+        for (var k = 0; k < bolacolor2.length; k++) {
+          bolacolor2[k].style.backgroundColor=color2[k];
+        }
+        document.getElementById('u2').addEventListener('click',granate2);
+        function granate2(){
+          imatgran.src="../img/nota2.png";
+        }
+        document.getElementById('dos2').addEventListener('click',clarogran2);
+        function clarogran2(){
+          imatgran.src="../img/nota9.png";
+        }
+        document.getElementById('tres2').addEventListener('click',gris2);
+        function gris2(){
+          imatgran.src="../img/nota8.png";
+        }
+        document.getElementById('cuatre2').addEventListener('click',clarobl2);
+        function clarobl2(){
+          imatgran.src="../img/nota3.png";
+        }
+        document.getElementById('cinc2').addEventListener('click',blanco2);
+        function blanco2(){
+          imatgran.src="../img/nota7.png";
         }
       </script>
 

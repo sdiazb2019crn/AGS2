@@ -351,7 +351,7 @@ a{
 .tarjeta{
   background-color: white;
   width: 70%;
-  height: 24em;
+  height: 23em;
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -417,6 +417,34 @@ a{
   width: 100%;
   margin: 11% 0;
 }
+#color_notas2{
+  width: 80%;
+  margin: 0 15% auto;
+  text-align: center;
+}
+#petites2 {
+  float: left;
+  width: 25%;
+}
+#petites2 img{
+  width: 90%;
+  display: block;
+  margin: 20% 0;
+}
+#gran2 {
+  float: left;
+  width: 45%;
+}
+#gran2 img{
+  width: 100%;
+  margin: 11% 0;
+}
+#opcion1{
+  display: none;
+}
+#opcion2{
+  display: none;
+}
 .slider{
   width: 20%;
   height: 25%;
@@ -428,8 +456,25 @@ a{
 #colors{
   width: 100%;
   height: 100%;
-  background-color: ivory;
   border-radius:10px;
+}
+#colors2{
+  width: 100%;
+  height: 100%;
+  border-radius:10px;
+  display: none;
+}
+#colors3{
+  width: 100%;
+  height: 100%;
+  border-radius:10px;
+  display: none;
+}
+#colors4{
+  width: 100%;
+  height: 100%;
+  border-radius:10px;
+  display: none;
 }
 input[type=color] {
   -webkit-appearance: none;
@@ -456,24 +501,60 @@ input[type=color]::-webkit-color-swatch{
   margin: 14% auto;
   cursor: pointer;
 }
+.bola2{
+  width: 50%;
+  height: 25%;
+  border-radius: 50%;
+  background-color: red;
+  display: block;
+  margin: 14% auto;
+  cursor: pointer;
+}
+.bola3{
+  width: 50%;
+  height: 25%;
+  border-radius: 50%;
+  background-color: red;
+  display: block;
+  margin: 14% auto;
+  cursor: pointer;
+}
+.bola4{
+  width: 50%;
+  height: 25%;
+  border-radius: 50%;
+  background-color: red;
+  display: block;
+  margin: 14% auto;
+  cursor: pointer;
+}
 #cinc{
+  border: solid 1px black;
+}
+#cinc2{
+  border: solid 1px black;
+}
+#cinc3{
+  border: solid 1px black;
+}
+#cinc4{
   border: solid 1px black;
 }
 .down{
   width: 9%;
-  float: right;
   position: relative;
-  right: 14.5%;
+  right: -75%;
+  bottom: 9.8%;
 }
 .down img{
   width: 100%;
 }
 .right{
   width: 15%;
-  float: right;
-  position: relative;
-  right: -7%;
-  bottom: -3%;
+  margin: 0 auto;
+  position: absolute;
+  top: 100%;
+  right: 1%;
 }
 .right img{
   width: 100%;
