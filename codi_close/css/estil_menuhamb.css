@@ -1,8 +1,8 @@
 .peu nav{
-  background-color: #FFDD92;
+  background-color: white;
   z-index:1000;
 	width:80%;
-	margin:20px auto;
+	margin: 8% auto;
 	height: 100%;
   position: fixed;
   top:0;
@@ -18,29 +18,29 @@
 }
 .peu nav ul {
 	list-style:none;
-  padding-left: 15px;
-  padding-top: 15px;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 .peu nav ul li {
 	display: block;
 	position: relative;
 }
 .peu nav ul li:hover {
-	background:#E6344A;
+	background:#D03B3B;
 }
 .peu nav ul li a {
 	color:black;
 	display:block;
 	text-decoration:none;
-	padding: 5px 10px;
+	padding: 2% 4%;
 }
 .peu nav ul li img {
 	height: 100%;
-  padding-left: 10px;
+  padding-left: 4%;
 }
 .peu nav .menu_cap{
 	border-bottom: 1px solid rgba(0,0,0,.2);
-  padding: 10px;
+  padding: 4%;
   padding-bottom: 0;
 }
 .peu nav .menu_cap h2{
@@ -56,24 +56,26 @@
 	display: inline-block;
 	position: relative;
   margin: 0;
-  padding-right: 10px;
+  padding-right: 4%;
 }
 .peu nav .menu_nomapp{
 	border-bottom: 1px solid rgba(0,0,0,.4);
-  padding: 10px;
-  padding-right: 20px;
+  padding: 3%;
+  padding-right: 7%;
+  padding-bottom: 0;
   text-align: right;
 }
 .peu nav .menu_nomapp h1{
-  font-size: 32px;
-  color: #8E7854;
+  font-size: 2.2em;
+  color: #800000;
+  font-family: 'Reem Kufi';
 }
 .peu nav .menu_peu{
 	border-top: 1px solid rgba(0,0,0,.2);
-  padding: 10px 20px;
+  padding: 2% 5%;
   padding-left: 20px;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   width: 69%;
 }
 .peu nav .menu_peu h2{

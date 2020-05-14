@@ -24,11 +24,11 @@ a{
   right: 0;
   bottom: 0;
   height: 100%;
-  background-color: orange;
+  background-color: white;
   background-image:url(../img/logo.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: %;
+  background-size: 40%;
 }
 .centrar {
   overflow: hidden;
@@ -60,9 +60,12 @@ a{
 #nomapp{
   float: left;
   width: 53%;
-  color: red;
+  color: #800000;
+  font-size: 1.5em;
+  font-family: 'Reem Kufi';
   position: relative;
   left: 10%;
+  bottom: 15%;
 }
 .cos{
   position: absolute;
@@ -114,13 +117,14 @@ a{
   margin: 2.5% 0 0 0;
   padding: 2.5% 0 0 0;
   text-align: center;
-  background-color: #FFDD92;
+  background-color: #D03B3B;
   border-radius: 5%;
   box-shadow: 3px 3px 0.7em #c2c2a3;
 }
 .fichatxt h2{
   margin: 2% 0;
   font-weight: 500;
+  color: #FEE9E9;
 }
 .numpost{
   width: 30%;
@@ -136,143 +140,20 @@ a{
 }
 .numpost h2{
   margin: 0;
+  margin-left: 70%;
   line-height: 1.7em;
   font-weight: 500;
+  color: #FEE9E9;
 }
 #logochat{
-  width: 20%;
-  margin: 2% 5%;
+  width: 15%;
+  margin: 5% 5%;
   margin-left: 30px;
-}
-
-/*profile page*/
-#nomperfil{
-  width: 100%;
-  margin: 0 0 10px 0;
-  padding: 15px 0;
-  text-align: center;
-  background-color: #FFDD92;
-}
-#nomperfil h1{
-  font-size: 18px;
-  margin: 0;
-  font-weight: 600;
-}
-#nomperfil img{
-  width: 26%;
-  display: inline-block;
-}
-#nomtxt h1{
-  font-size: 18px;
-  text-align: left;
-  margin: 5px 10px;
-  font-weight: 600;
-}
-#nomtxt {
-  width: 30%;
-  display: inline-block;
-  position: relative;
-  top: -15px;
-}
-#local{
-  width: 73%;
-  margin: 10px auto;
-  padding: 10px 20px;
-  background-color: #FFF7E5;
-  border-radius: 10px;
-  box-shadow: 2px 2px 6px lightgray;
-}
-.linea{
-  width: 100%;
-}
-#lin1 h2{
-  position: relative;
-  top: -4px;
-}
-#lin2 h2{
-  position: relative;
-  top: -6px;
-}
-#lin3 h2{
-  margin-bottom: 0;
-}
-#lin1 img{
-  width: 8%;
-  margin: 0 0 0 5px;
-}
-#lin2 img{
-  width: 10%;
-  margin: 0 ;
-}
-#lin3 img{
-  width: 5%;
-  margin: 5px 5px 5px 10px;
-}
-.linea img{
-  display: inline-block;
-}
-.linea h2{
-  display: inline-block;
-  font-size: 14px;
-  text-align: left;
-  margin: 5px;
-  font-weight: 450;
-}
-.numposit{
-  width: 75%;
-  margin: 10px;
-  padding: 5px;
-  background-color: ;
-  margin: 0 auto;
-  height: 5%;
-}
-.numposit img{
-  display: inline-block;
-  margin: 5px;
-  width: 10%;
-}
-.numposit h2{
-  position: relative;
-  top: -12px;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 450;
-}
-.descrip{
-  width: 75%;
-  padding: 5px;
-  background-color: ;
-  margin: 10px auto;
-}
-.descrip h2{
-  font-size: 14px;
-  font-weight: 450;
-}
-.editfix{
-  position: absolute;
-  bottom: 0px;
-  height: 15%;
-  width: 100%;
-}
-#edit{
-  width: 12%;
-  height: 7%;
-  margin: 10px;
-  display: inline-block;
-  position: relative;
-  top: 5%;
-}
-#bot_exp{
-  width: 41%;
-  height: 7%;
-  margin: 10px;
-  display: inline-block;
-  float: right;
 }
 
 /*notas page*/
 .corcho{
-  background-image: url(../img/corcho_1.png);
+  background-image: url(../img/corcho_amarillo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -280,56 +161,185 @@ a{
   float: left;
   width: 45%;
   height: 37%;
-  margin: 0 7px;
+  margin: 0 2%;
 }
 #nota1{
   background-image: url(../img/nota_1.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-size: 95%;
+  background-size: 110%;
 }
 #nota2{
   background-image: url(../img/nota2.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-size: 110%;
 }
 #nota3{
   background-image: url(../img/nota3.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-size: 110%;
 }
 #nota4{
   background-image: url(../img/nota4.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-size: 110%;
 }
 #nota5{
   background-image: url(../img/nota5.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-size: 110%;
 }
-.notascor h2{
-  width: 70%;
-  font-size: 14px;
+.notascor h3{
+  width: 68%;
   font-weight: 450;
   text-align: center;
   margin: 0 auto;
-  margin-top: 40px;
-  padding-right: 8px;
+  margin-top: 25%;
+  margin-left: 22%;
+  padding-right: 3%;
 }
-.notascor h3{
+.notascor h4{
   width: 70%;
-  font-size: 14px;
+  font-size: 0.8em;
   font-weight: 450;
-  color: #cc0000;
+  color: black;
   text-align: right;
-  margin: 7px 10px auto;
+  margin: 5% 5.5% auto;
 }
 .notamas{
   float: right;
   width: 12%;
   height: 7%;
   position: absolute;
-  right: 25px;
-  bottom: 30px;
+  right: 8%;
+  bottom: 7%;
+}
+
+/*profile page*/
+#nomperfil{
+  width: 100%;
+  margin: 0 0 3% 0;
+  padding: 3% 0;
+  text-align: center;
+  background-color: #D03B3B;
+}
+#nomperfil h1{
+  margin: 0;
+  font-weight: 600;
+  color: #FEE9E9;
+}
+#nomperfil img{
+  width: 26%;
+  display: inline-block;
+}
+#nomtxt h1{
+  text-align: left;
+  margin: 3% 7%;
+  font-weight: 500;
+  color: #FEE9E9;
+}
+#nomtxt {
+  width: 30%;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+}
+#local{
+  width: 73%;
+  margin: 3% auto;
+  padding: 3% 5%;
+  background-color: #FEE9E9;
+  border-radius: 3%;
+  box-shadow: 2px 2px 1em lightgray;
+}
+.linea{
+  width: 100%;
+}
+#lin1 h2{
+  position: relative;
+  top: -0.25em;
+  margin-left: 3%;
+}
+#lin2 h2{
+  position: relative;
+  top: -0.45em;
+}
+#lin3 h2{
+  margin-bottom: 0;
+  margin-left: 5%;
+}
+#lin1 img{
+  width: 8%;
+  margin: 0 0 0 1%;
+}
+#lin2 img{
+  width: 10%;
+  margin: 0;
+}
+#lin3 img{
+  width: 5%;
+  margin: 0 0 5% 2.6%;
+}
+.linea img{
+  display: inline-block;
+}
+.linea h2{
+  display: inline-block;
+  font-size: 0.9em;
+  text-align: left;
+  margin: 5px;
+  font-weight: 450;
+}
+.numposit{
+  width: 75%;
+  margin: 4%;
+  padding: 0;
+  margin: 0 auto;
+}
+.numposit img{
+  display: inline-block;
+  width: 10%;
+  margin: 1%;
+}
+.numposit h2{
+  position: relative;
+  top: -0.7em;
+  margin-left: 1%;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 450;
+}
+.descrip{
+  width: 75%;
+  padding: 1%;
+  margin: 0 auto;
+}
+.descrip h2{
+  font-size: 0.9em;
+  font-weight: 450;
+}
+.editfix{
+  position: absolute;
+  bottom: 0;
+  height: 15%;
+  width: 100%;
+}
+#edit{
+  width: 12%;
+  height: 7%;
+  margin: 4%;
+  display: inline-block;
+  position: relative;
+  top: 5%;
+}
+#bot_exp{
+  width: 41%;
+  height: 7%;
+  margin: 4%;
+  display: inline-block;
+  float: right;
 }
