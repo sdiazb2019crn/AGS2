@@ -251,7 +251,7 @@ a{
 #local{
   width: 73%;
   margin: 3% auto;
-  padding: 3% 5%;
+  padding: 3% 1% 3% 5%;
   background-color: #FEE9E9;
   border-radius: 3%;
   box-shadow: 2px 2px 1em lightgray;
@@ -342,4 +342,9 @@ a{
   margin: 4%;
   display: inline-block;
   float: right;
+}
+
+/*edit nota 1 page*/
+.oscuro{
+  background-color: rgba(153, 143, 143, 0.5);
 }
