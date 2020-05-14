@@ -559,3 +559,13 @@ input[type=color]::-webkit-color-swatch{
 .right img{
   width: 100%;
 }
+.oscurecer{
+  width: 100%;
+  background-color: rgba(153, 143, 143, 0.5);
+  z-index:900;
+	margin: 0 auto;
+  position: fixed;
+  top:40px;
+  bottom: 70px;
+  display: none;
+}

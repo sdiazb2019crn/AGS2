@@ -14,8 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estil_menuhamb.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../js/jquery-latest.js"></script>
   	<script src="../js/main.js"></script>
+    <script src="../js/funcions.js"></script>
 
     <meta author="Grup09_SheimaSandra">
     <meta charset="utf-8">
@@ -25,7 +26,7 @@
   <body>
     <div id="contenedor">
       <div class="cap centrar">
-        <a href="../index.html">
+        <a href="#">
           <div id="atras" class="iconcap">
             <svg width="18" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
@@ -66,12 +67,149 @@
         <div id="nota4" class="notascor">  </div>
         <div id="nota5" class="notascor">  </div>
 
-        <div class="notamas">
-          <a href="nuevanota.html">
-            <img src="../img/mas.png">
-          </a>
+        <div id="masnota" class="notamas">
+          <a href="#"><img src="../img/mas.png"></a>
         </div>
       </div>
+
+      <div id="oscurecer" class="oscurecer">
+        <div class="tarjeta">
+          <h1>Do you want to thank a Helper?</h1>
+          <div class="nota_izq">
+            <img src="../img/nota_1.png">
+          </div>
+          <div class="nota_der">
+            <img src="../img/nota6.png">
+          </div>
+
+          <div class="txt_tam">
+            <h2>A few words</h2>
+            <h2>A message</h2>
+          </div>
+
+          <h1>Shape and color</h1>
+
+          <div id="color_notas" class="carrusel">
+            <div id="petites">
+              <img class="mov" src="../img/nota_1.png"/>
+              <img class="mov" src="../img/nota7.png"/>
+            </div>
+            <div id="gran">
+              <img id="muestra" src="../img/nota_1.png"/>
+            </div>
+          </div>
+
+          <div class="slider">
+            <div id="colors">
+              <div id="u" class="bola"></div>
+              <div id="dos" class="bola"></div>
+              <div id="tres" class="bola"></div>
+              <div id="cuatre" class="bola"></div>
+              <div id="cinc" class="bola"></div>
+            </div>
+          </div>
+          <div class="slider">
+            <div id="colors2">
+              <div id="u2" class="bola2"></div>
+              <div id="dos2" class="bola2"></div>
+              <div id="tres2" class="bola2"></div>
+              <div id="cuatre2" class="bola2"></div>
+              <div id="cinc2" class="bola2"></div>
+            </div>
+          </div>
+
+          <div class="right">
+            <img src="../img/right.png">
+          </div>
+        </div>
+
+        <div class="down">
+          <img src="../img/down.png">
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        document.getElementById('masnota').addEventListener('click',edit_nota);
+        function edit_nota () {
+          document.getElementById('oscurecer').style.display="block";
+        };
+        document.getElementById('atras').addEventListener('click',atras_edit_nota);
+        function atras_edit_nota () {
+          document.getElementById('oscurecer').style.display="none";
+        };
+
+        var imatgran=document.getElementById('muestra');
+        var imatge=document.getElementsByClassName('mov');
+        var slider=document.getElementsByClassName('slider');
+        imatge[0].addEventListener('mouseover', opc0);
+        imatge[1].addEventListener('mouseover', opc1);
+        function opc0(){
+          imatgran.src=imatge[0].src;
+          document.getElementById('colors').style.display="block";
+          document.getElementById('colors2').style.display="none";
+          slider[0].style.display="block";
+          slider[1].style.display="none";
+        }
+        function opc1(){
+          imatgran.src=imatge[1].src;
+          document.getElementById('colors').style.display="none";
+          document.getElementById('colors2').style.display="block";
+          slider[0].style.display="none";
+          slider[1].style.display="block";
+        }
+
+        var color=["#800000","#D03B3B","#998F8F","#FEE9E9","white"];
+        var bolacolor=document.getElementsByClassName('bola');
+        for (var k = 0; k < bolacolor.length; k++) {
+          bolacolor[k].style.backgroundColor=color[k];
+        }
+        document.getElementById('u').addEventListener('click',granate);
+        function granate(){
+          imatgran.src="../img/nota11.png";
+        }
+        document.getElementById('dos').addEventListener('click',clarogran);
+        function clarogran(){
+          imatgran.src="../img/nota5.png";
+        }
+        document.getElementById('tres').addEventListener('click',gris);
+        function gris(){
+          imatgran.src="../img/nota4.png";
+        }
+        document.getElementById('cuatre').addEventListener('click',clarobl);
+        function clarobl(){
+          imatgran.src="../img/nota10.png";
+        }
+        document.getElementById('cinc').addEventListener('click',blanco);
+        function blanco(){
+          imatgran.src="../img/nota_1.png";
+        }
+
+        var color2=["#800000","#D03B3B","#998F8F","#FEE9E9","white"];
+        var bolacolor2=document.getElementsByClassName('bola2');
+        for (var k = 0; k < bolacolor2.length; k++) {
+          bolacolor2[k].style.backgroundColor=color2[k];
+        }
+        document.getElementById('u2').addEventListener('click',granate2);
+        function granate2(){
+          imatgran.src="../img/nota2.png";
+        }
+        document.getElementById('dos2').addEventListener('click',clarogran2);
+        function clarogran2(){
+          imatgran.src="../img/nota9.png";
+        }
+        document.getElementById('tres2').addEventListener('click',gris2);
+        function gris2(){
+          imatgran.src="../img/nota8.png";
+        }
+        document.getElementById('cuatre2').addEventListener('click',clarobl2);
+        function clarobl2(){
+          imatgran.src="../img/nota3.png";
+        }
+        document.getElementById('cinc2').addEventListener('click',blanco2);
+        function blanco2(){
+          imatgran.src="../img/nota7.png";
+        }
+      </script>
 
       <div class="peu centrar">
         <div id="menuhamb" class="iconhamb">
