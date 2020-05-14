@@ -351,11 +351,11 @@ a{
 .tarjeta{
   background-color: white;
   width: 70%;
-  height: 80%;
+  height: 24em;
   margin: 0 auto;
   position: relative;
   text-align: center;
-  top: 9%;
+  top: 4%;
 }
 .tarjeta h1{
   margin: 4%;
@@ -363,6 +363,9 @@ a{
   font-weight: 500;
   clear: both;
   margin-bottom: 7%;
+}
+.txt_tam{
+  clear: both;
 }
 .nota_izq{
   float: left;
@@ -374,8 +377,10 @@ a{
 .nota_izq img{
   width: 60%;
 }
-.nota_izq h2{
+.txt_tam h2{
   font-weight: 500;
+  display: inline-block;
+  margin: 0 5% auto;
 }
 .nota_der{
   float: left;
@@ -383,15 +388,12 @@ a{
   margin: 1% auto;
   text-align: center;
   position: relative;
-  top: 2em;
+  top: 8.2%;
 }
 .nota_der img{
   width: 70%;
   position: relative;
   top: -1em;
-}
-.nota_der h2{
-  font-weight: 500;
 }
 #color_notas{
   width: 80%;
@@ -417,7 +419,7 @@ a{
 }
 .slider{
   width: 20%;
-  height: 30%;
+  height: 25%;
   overflow-y: scroll;
 }
 .slider::-webkit-scrollbar{
@@ -451,9 +453,28 @@ input[type=color]::-webkit-color-swatch{
   border-radius: 50%;
   background-color: red;
   display: block;
-  margin: 14%;
+  margin: 14% auto;
   cursor: pointer;
 }
 #cinc{
   border: solid 1px black;
+}
+.down{
+  width: 9%;
+  float: right;
+  position: relative;
+  right: 14.5%;
+}
+.down img{
+  width: 100%;
+}
+.right{
+  width: 15%;
+  float: right;
+  position: relative;
+  right: -7%;
+  bottom: -3%;
+}
+.right img{
+  width: 100%;
 }
