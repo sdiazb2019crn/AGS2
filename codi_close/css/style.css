@@ -354,5 +354,106 @@ a{
   height: 80%;
   margin: 0 auto;
   position: relative;
+  text-align: center;
   top: 9%;
+}
+.tarjeta h1{
+  margin: 4%;
+  padding-top: 7%;
+  font-weight: 500;
+  clear: both;
+  margin-bottom: 7%;
+}
+.nota_izq{
+  float: left;
+  width: 45%;
+  margin: 1% auto;
+  text-align: center;
+  margin-left: 5%;
+}
+.nota_izq img{
+  width: 60%;
+}
+.nota_izq h2{
+  font-weight: 500;
+}
+.nota_der{
+  float: left;
+  width: 45%;
+  margin: 1% auto;
+  text-align: center;
+  position: relative;
+  top: 2em;
+}
+.nota_der img{
+  width: 70%;
+  position: relative;
+  top: -1em;
+}
+.nota_der h2{
+  font-weight: 500;
+}
+#color_notas{
+  width: 80%;
+  margin: 0 15% auto;
+  text-align: center;
+}
+#petites {
+  float: left;
+  width: 25%;
+}
+#petites img{
+  width: 90%;
+  display: block;
+  margin: 20% 0;
+}
+#gran {
+  float: left;
+  width: 45%;
+}
+#gran img{
+  width: 100%;
+  margin: 11% 0;
+}
+.slider{
+  width: 20%;
+  height: 30%;
+  overflow-y: scroll;
+}
+.slider::-webkit-scrollbar{
+  display: none;
+}
+#colors{
+  width: 100%;
+  height: 100%;
+  background-color: ivory;
+  border-radius:10px;
+}
+input[type=color] {
+  -webkit-appearance: none;
+  outline: none;
+}
+input[type=color]:focus{
+  -webkit-appearance: none;
+  outline: none;
+}
+input[type=color]::-webkit-color-swatch-wrapper{
+  border-radius: 50%;
+  padding: 0;
+}
+input[type=color]::-webkit-color-swatch{
+  border: none;
+  border-radius: 50%;
+}
+.bola{
+  width: 50%;
+  height: 25%;
+  border-radius: 50%;
+  background-color: red;
+  display: block;
+  margin: 14%;
+  cursor: pointer;
+}
+#cinc{
+  border: solid 1px black;
 }

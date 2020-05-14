@@ -59,22 +59,80 @@
       <div class="cos centrar oscuro">
 
         <div class="tarjeta">
-
-          <h1></h1>
+          <h1>Do you want to thank a Helper?</h1>
           <div class="nota_izq">
-            sadf
+            <img src="../img/nota_1.png">
+            <h2>A few words</h2>
           </div>
           <div class="nota_der">
-
+            <img src="../img/nota6.png">
+            <h2>A message</h2>
           </div>
-          <h1></h1>
-          <div class="carrusel">
+          <h1>Shape and color</h1>
 
+          <div id="color_notas" class="carrusel">
+            <div id="petites">
+              <img class="mov" src="../img/nota_1.png"/>
+              <img class="mov" src="../img/nota7.png"/>
+            </div>
+            <div id="gran">
+              <img id="muestra" src="../img/nota_1.png"/>
+            </div>
           </div>
 
+          <div class="slider">
+            <div id="colors">
+              <div id="u" class="bola"></div>
+              <div id="dos" class="bola"></div>
+              <div id="tres" class="bola"></div>
+              <div id="cuatre" class="bola"></div>
+              <div id="cinc" class="bola"></div>
+            </div>
+          </div>
         </div>
 
+        <img src="../img/down.png">
+        <img src="../img/right.png">
       </div>
+
+      <script type="text/javascript">
+        var imatgran=document.getElementById('muestra');
+        var imatge=document.getElementsByClassName('mov');
+        imatge[0].addEventListener('mouseover', opc0);
+        imatge[1].addEventListener('mouseover', opc1);
+        function opc0(){
+          imatgran.src=imatge[0].src;
+        }
+        function opc1(){
+          imatgran.src=imatge[1].src;
+        }
+
+        var color=["#800000","#D03B3B","#998F8F","#FEE9E9","white"];
+        var bolacolor=document.getElementsByClassName('bola');
+        for (var k = 0; k < bolacolor.length; k++) {
+          bolacolor[k].style.backgroundColor=color[k];
+        }
+        document.getElementById('u').addEventListener('click',granate);
+        function granate(){
+          imatgran.src="../img/notax.png";
+        }
+        document.getElementById('dos').addEventListener('click',clarogran);
+        function clarogran(){
+          imatgran.src="../img/notax.png";
+        }
+        document.getElementById('tres').addEventListener('click',gris);
+        function gris(){
+          imatgran.src="../img/notax.png";
+        }
+        document.getElementById('cuatre').addEventListener('click',clarobl);
+        function clarobl(){
+          imatgran.src="../img/notax.png";
+        }
+        document.getElementById('cinc').addEventListener('click',blanco);
+        function blanco(){
+          imatgran.src="../img/notax.png";
+        }
+      </script>
 
       <div class="peu centrar">
         <div id="menuhamb" class="iconhamb">
