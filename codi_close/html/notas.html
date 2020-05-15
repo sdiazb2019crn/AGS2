@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../css/estil_menuhamb.css">
     <script src="../js/jquery-latest.js"></script>
   	<script src="../js/main.js"></script>
-    <script src="../js/funcions.js"></script>
+    <script src="../js/mododark.js"></script>
 
     <meta author="Grup09_SheimaSandra">
     <meta charset="utf-8">
@@ -59,7 +59,7 @@
 
       <div class="cos centrar corcho">
         <div id="nota1" class="notascor">
-          <h3>Thanks for your help!  You were very kind at all times. You helped us!</h3>
+          <h3>Thanks for your help!  You were very kind at all times.</h3>
           <a href="profile_explbuscahelp.html"><h4>@Helper</h4></a>
         </div>
         <div id="nota2" class="notascor">  </div>
@@ -118,13 +118,37 @@
             </div>
           </div>
 
-          <div class="right">
+          <div id="right" class="right">
             <img src="../img/right.png">
           </div>
         </div>
 
         <div class="down">
           <img src="../img/down.png">
+        </div>
+      </div>
+
+      <div id="oscurecer2" class="oscurecer">
+        <div class="tarjeta">
+          <h1>What do you want to say to the Helper?</h1>
+
+          <div class="what">
+            <h2>...</h2>
+          </div>
+
+          <h1>Who is your Helper?</h1>
+
+          <div class="who">
+            <h2>@</h2>
+          </div>
+
+          <div id="send" class="send">
+            <img src="../img/send.png">
+          </div>
+
+          <div id="left" class="left">
+            <img src="../img/left.png">
+          </div>
         </div>
       </div>
 
@@ -135,6 +159,22 @@
         };
         document.getElementById('atras').addEventListener('click',atras_edit_nota);
         function atras_edit_nota () {
+          document.getElementById('oscurecer').style.display="none";
+          document.getElementById('oscurecer2').style.display="none";
+        };
+        document.getElementById('right').addEventListener('click',right);
+        function right () {
+          document.getElementById('oscurecer2').style.display="block";
+          document.getElementById('oscurecer').style.display="none";
+        };
+        document.getElementById('left').addEventListener('click',left);
+        function left () {
+          document.getElementById('oscurecer').style.display="block";
+          document.getElementById('oscurecer2').style.display="none";
+        };
+        document.getElementById('send').addEventListener('click',send);
+        function send () {
+          document.getElementById('oscurecer2').style.display="none";
           document.getElementById('oscurecer').style.display="none";
         };
 
@@ -263,7 +303,7 @@
               <a href="#" class="bt-menu"><img src="../img/hamb_menu2.png"></a>
             </div>
             <a href="#"> <h2>SIGN OFF</h2></a>
-            <a href="#"><img src="../img/moon.png"></a>
+            <a href="#" id="dark"><img src="../img/moon.png"></a>
           </div>
     		</nav>
 
