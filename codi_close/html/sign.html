@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ca" dir="ltr" manifest="cache.manifest">
+  <head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#800000">
+    <meta name="theme-color" content="#800000">
+    <meta name="msapplication-navbutton-color" content="#800000">
+    <link rel="icon" sizes="192x192" href="../img/icon2.png">
+    <link rel="apple-touch-icon" href="../img/icon2.png">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/screen.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rambla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estil_menuhamb.css">
+    <script src="../js/jquery-latest.js"></script>
+  	<script src="../js/main.js"></script>
+    <script src="../js/mododark.js"></script>
+
+    <meta author="Grup09_SheimaSandra">
+    <meta charset="utf-8">
+    <title>Close by</title>
+  </head>
+
+  <body>
+    <div id="contenedor">
+      <div id="registro" class="cos2 centrar">
+        <div class="color_cap">  </div>
+
+        <div class="tituloapp">
+          <h1>Close by</h1>
+        </div>
+
+        <form action="" class="formulario" name="formulario_registro" method="get">
+          <div id="nom" class="input-group">
+						<input type="text" id="nombre" name="nombre">
+						<label class="label" for="nombre">Username</label>
+          </div>
+          <div id="contra" class="input-group">
+						<input type="password" id="pass" name="pass">
+						<label class="label" for="pass">Password</label>
+					</div>
+        </form>
+        <!--<div class="user">
+          <h1>Username</h1>
+        </div>
+        <div class="pass">
+          <h1>Password</h1>
+        </div>-->
+        <a href="discover.html"><div class="log">
+          <img src="../img/login.png">
+        </div></a>
+        <div class="filete">
+          <img src="../img/filete.png" alt="">
+        </div>
+        <div class="log2">
+          <img src="../img/facelog.png" alt="">
+          <img src="../img/googlelog.png" alt="">
+        </div>
+        <div class="txt1">
+          <h2>Forgot your <b>password</b>?</h2>
+        </div>
+        <div class="txt2">
+          <h2>Don't have an account? <a href="registro.html"><b>Sign up!</b></a></h2>
+        </div>
+        <div class="color_peu">  </div>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+        	$("#nombre").click(function(){
+        		$("#nom label").addClass("active");
+        	});
+        	/*$("body").click(function(){
+        		$("#nom label").removeClass("active");
+        	});*/
+          $("#pass").click(function(){
+        		$("#contra label").addClass("active");
+        	});
+        });
+        </script>
+
+      </div>
+    </div>
+  </body>
+</html>

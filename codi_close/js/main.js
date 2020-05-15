@@ -16,4 +16,9 @@ function main () {
 			});
 		}
 	});
+	$('#atras2').click(function(){
+		$('nav').animate({
+			left: '-100%'
+		});
+	});
 };
