@@ -693,4 +693,6 @@ label.label {
   height: 5%;
   margin: 0;
   background-color: #800000;
+  position: absolute;
+  bottom: 0;
 }
