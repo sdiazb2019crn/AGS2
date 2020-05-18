@@ -696,3 +696,312 @@ label.label {
   position: absolute;
   bottom: 0;
 }
+
+/*registro page*/
+.tituloapp2{
+  width: 80%;
+  color: #800000;
+  font-size: 3em;
+  font-family: 'Reem Kufi';
+  margin: 5% auto;
+  text-align: center;
+}
+.whatprofile{
+  width: 80%;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 3% auto;
+  text-align: center;
+}
+.just_dreta{
+  float: left;
+  width: 42%;
+  margin: 0 auto;
+  text-align: right;
+  margin: 3% 4%;
+}
+.just_esque{
+  float: left;
+  width: 40%;
+  margin: 0 auto;
+  text-align: left;
+  margin: 3% 4%;
+}
+.color b{
+  color: #D03B3B;
+}
+#mano1{
+  padding-right: 4%;
+}
+#mano2{
+  padding-left: 4%;
+}
+.pasar_pag{
+  width: 20%;
+  height: 4%;
+  text-align: center;
+  margin: 0 auto;
+  clear: both;
+}
+.bola_pag{
+  width: 23%;
+  height: 65%;
+  border-radius: 50%;
+  background-color: #D03B3B;
+  float: left;
+  margin: 4.7%;
+}
+.bola_pag:hover{
+  background-color: #998F8F;
+}
+#pag2{
+  display: none;
+}
+#pag3{
+  display: none;
+}
+.localprofile{
+  width: 90%;
+  font-size: 1.2em;
+  margin: 3% auto;
+  margin-top: 0;
+  text-align: center;
+}
+.localprofile h1{
+  font-weight: 500;
+}
+.formulario2 {
+  width: 100%;
+  text-align: center;
+}
+#nom2, #contra2{
+  display: inline-block;
+  width: 30%;
+  margin: 2%;
+}
+#com, #prov, #muni, #employ{
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+}
+#numper {
+  display: inline-block;
+  width: 15%;
+  margin: 1%;
+}
+.input-group2, .input-group3, .input-group4, .input-group5,
+.input-group6 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.input-group2 input[type="text"],
+.input-group2 input[type="password"],
+.input-group3 input[type="email"],
+.input-group3 input[type="text"],
+.input-group4 input[type="text"],
+.input-group5 input[type="text"],
+.input-group6 input[type="text"]{
+  font-size: 1.2em;
+  width: 100%;
+  height: 1.6em;
+  outline: none;
+  padding: 2%;
+  background: #FEE9E9;
+  border: #D03B3B;
+  margin: 0 auto;
+  margin: 3%;
+  line-height: 85%;
+  text-align: center;
+  box-shadow: 0 0.1em 0 #998F8F;
+  border-radius: 50px;
+}
+.input-group3 input[type="email"]  {
+  width: 60%;
+}
+.input-group3 input[type="text"]#info  {
+  width: 60%;
+}
+.input-group6 input[type="text"]#descripcaja  {
+  width: 80%;
+  height: 5em;
+  border-radius: 20px;
+}
+.input-group2 input[type="text"]:focus,
+.input-group2 input[type="text"]:active,
+.input-group2 input[type="password"]:focus,
+.input-group2 input[type="password"]:active,
+.input-grou3 input[type="email"]:focus,
+.input-group3 input[type="email"]:active,
+.input-group3 input[type="text"]:focus,
+.input-group3 input[type="text"]:active,
+.input-group4 input[type="text"]:focus,
+.input-group4 input[type="text"]:active,
+.input-group5 input[type="text"]:focus,
+.input-group5 input[type="text"]:active {
+  outline: none;
+  border-bottom: 2px solid #800000;
+}
+label.label2 {
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  line-height: 170%;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #998F8F;
+}
+.label2.active {
+  display: none;
+}
+label.labelnom {
+  position: absolute;
+  top: 8.5em;
+  left: 22.3%;
+}
+label.labelpass {
+  position: absolute;
+  top: 8.5em;
+  left: 58%;
+}
+label.labelyear {
+  position: absolute;
+  top: 11.2em;
+  left: 37%;
+}
+label.labelmail {
+  position: absolute;
+  top: 13.9em;
+  left: 44.7%;
+}
+label.labelcom{
+  position: absolute;
+  top: 25.3em;
+  left: 6.8%;
+  font-size: 1.1em;
+}
+label.labelprov{
+  position: absolute;
+  top: 25.3em;
+  left: 42.5%;
+  font-size: 1.1em;
+}
+label.labelmuni{
+  position: absolute;
+  top: 25.3em;
+  left: 72%;
+  font-size: 1.1em;
+}
+.photo{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2%;
+}
+.photo img{
+  width: 25%;
+  margin: 0 auto;
+  display: inline-block;
+}
+.photo h2{
+  width: 30%;
+  margin: 0 2% auto;
+  display: inline-block;
+  position: relative;
+  top: -1.2em;
+  font-weight: 500;
+}
+.local2profile{
+  width: 60%;
+  margin: 1% auto;
+  text-align: center;
+}
+.local2profile h2{
+  font-weight: 500;
+}
+#formu2{
+  margin-bottom: 2%;
+}
+.radio{
+  width: 40%;
+  margin: 3% auto;
+  text-align: center;
+  display: inline-block;
+}
+.radio input[type="radio"] {
+  display: none;
+}
+.radio label{
+  color: #800000;
+  font-size: 1.2em;
+  padding: 3% 6%;
+}
+.radio input[type="radio"]:checked + label {
+  padding: 3% 6%;
+  background-color: #800000;
+  color: #FEE9E9;
+  border-radius: 5%;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.numpersonas h2, .employsitu h2, .carornot h2 {
+  font-weight: 500;
+  display: inline-block;
+}
+.descripinfo {
+  margin: 2% 0 4% 0;
+}
+.descripinfo h2 {
+  font-weight: 500;
+  margin: 2% auto;
+}
+#caryes, #carno{
+  width: 10%;
+  margin: 2%;
+}
+.okbot{
+  width: 15%;
+  margin: 2.5% auto;
+  text-align: center;
+  display: none;
+}
+.okbot img{
+  width: 100%;
+}
+.backwelcome{
+  background-color: ;
+  margin: 0 auto;
+  text-align: center;
+}
+.backwelcome h1{
+  font-size: 3em;
+  font-weight: 500;
+}
+.backwelcome h2{
+  font-size: 2em;
+  font-weight: 500;
+}
+#contenedorwel a{
+  color: black;
+  text-decoration: none;
+}
+.wel {
+  height: 15%;
+}
+.start{
+  height: 17%;
+}
+.vacio{
+  width: 100%;
+  height: 20%;
+}
+.logowel{
+  width: 38%;
+  margin: 0 auto;
+  text-align: center;
+}
+.logowel img{
+  width: 100%;
+}
