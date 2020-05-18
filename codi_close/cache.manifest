@@ -9,6 +9,9 @@ html/base_menu.html
 html/discover.html
 html/notas.html
 html/profile.html
+html/registro.html
+html/sign.html
+html/welcome.html
 js/main.js
 js/mododark.js
 js/jquery-latest.js
