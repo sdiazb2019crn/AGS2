@@ -16,7 +16,11 @@ html/chat.html
 html/chat_vacio.html
 html/expl_busca_profile.html
 html/chatsandprofiles.html
+html/about.html
+html/contact.html
 html/notifications.html
+html/faq.html
+html/blockedprofiles.html
 js/main.js
 js/mododark.js
 js/jquery-latest.js
