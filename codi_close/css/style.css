@@ -864,40 +864,40 @@ label.label2 {
 }
 label.labelnom {
   position: absolute;
-  top: 8.5em;
-  left: 22.3%;
+  top: 10.3em;
+  left: 24.5%;
 }
 label.labelpass {
   position: absolute;
-  top: 8.5em;
-  left: 58%;
+  top: 10.3em;
+  left: 59.5%;
 }
 label.labelyear {
   position: absolute;
-  top: 11.2em;
-  left: 37%;
+  top: 13.6em;
+  left: 40%;
 }
 label.labelmail {
   position: absolute;
-  top: 13.9em;
-  left: 44.7%;
+  top: 16.8em;
+  left: 45.5%;
 }
 label.labelcom{
   position: absolute;
-  top: 25.3em;
-  left: 6.8%;
+  top: 27.95em;
+  left: 8%;
   font-size: 1.1em;
 }
 label.labelprov{
   position: absolute;
-  top: 25.3em;
-  left: 42.5%;
+  top: 27.95em;
+  left: 43.5%;
   font-size: 1.1em;
 }
 label.labelmuni{
   position: absolute;
-  top: 25.3em;
-  left: 72%;
+  top: 27.95em;
+  left: 73%;
   font-size: 1.1em;
 }
 .photo{
