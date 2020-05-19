@@ -1336,7 +1336,7 @@ label.labelmessage {
 }
 
 
-/* Notifications page */
+/* Notifications & Chats and profiles page */
 .perfil_etiqueta2{
   width: 90%;
   border-radius: 10px;
@@ -1442,4 +1442,102 @@ label.labelmessage {
 .num_aviso{
   position: relative;
   top: -0.8em;
+}
+
+
+/* blocked profiles page */
+.txtnot3 h2{
+  font-weight: 500;
+  text-align: left;
+}
+.txtnot3{
+  width: 25%;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+.txtnot4 h2{
+  font-weight: 500;
+  text-align: center;
+  color:#998F8F;
+}
+.txtnot4{
+  width: 27%;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+.blockopen{
+  width: 20%;
+  display: inline-block;
+}
+.blockopen img{
+  width: 48%;
+}
+.notialign{
+  text-align: center;
+}
+.txtblock{
+  position: relative;
+  bottom: 0.6em;
+}
+.tituloblock1{
+  text-align: center;
+  margin: 2% auto;
+  width: 90%;
+}
+.tituloblock2{
+  text-align: center;
+  margin: 2% auto;
+  width: 60%;
+  margin-bottom: 4%;
+}
+.tituloblock1 h2{
+  font-weight: 500;
+}
+.tituloblock2 h2{
+  font-weight: 500;
+  color:#800000;
+  font-size: 0.8em;
+}
+
+
+.faqquest img{
+  width: 30%;
+}
+.faqtitulo{
+  width: 52%;
+}
+.faqpreg{
+  width: 70%;
+}
+.faqpreg2{
+  width: 87%;
+}
+.faqflecha{
+  text-align: right;
+  width: 7%;
+}
+.notifaq{
+  margin: 1% auto;
+  padding: 0 2%;
+  border-bottom: 1px solid #800000;
+}
+.notifaq a{
+  text-decoration: none;
+  color: black;
+}
+.redtxtfaq{
+  width: 84%;
+  display: inline-block;
+}
+.redtxtfaq h2{
+  margin: 4% 0;
+}
+.redimgemail{
+  width: 14%;
+  display: inline-block;
+}
+.redimgemail img{
+  width: 100%;
 }
